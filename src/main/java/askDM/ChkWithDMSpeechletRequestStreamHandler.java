@@ -20,7 +20,7 @@ public class ChkWithDMSpeechletRequestStreamHandler extends SpeechletRequestStre
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
         supportedApplicationIds = new HashSet<String>();
-        supportedApplicationIds.add("amzn1.ask.skill.af941ed2-c0db-45df-b81d-080ab1857c88");
+        supportedApplicationIds.add("amzn1.ask.skill.112e499d-53b2-41f6-9678-d21c4e139f78");
     }
     public ChkWithDMSpeechletRequestStreamHandler() {
         super(new ChkWithDMSpeechlet(), supportedApplicationIds);
